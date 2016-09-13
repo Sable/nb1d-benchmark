@@ -1,0 +1,17 @@
+{
+   "type": "benchmark",
+   "name":"N-Body 1D",
+   "short-name":"nb1d",
+   "description":"Simulate the 1-dimensional n-body problem",
+   "version":"1.0.0",
+   "input-size":{
+      "small":1,
+      "medium":5,
+      "large": 20
+   },
+   "expected-output": {
+      "small": 97949,
+      "medium": 260420,
+      "large": 270123
+   }
+}
